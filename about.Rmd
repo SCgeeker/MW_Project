@@ -1,0 +1,13 @@
+---
+title: "關於專案"
+description: |
+--- 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+2020/12/26正式上線收集資料，
+
+> 本專案網站使用[Distill](https://rstudio.github.io/distill/)套件開發及維護，網站資訊原始資料及程式碼請見本站[github](https://github.com/SCgeeker/MW_Project)。

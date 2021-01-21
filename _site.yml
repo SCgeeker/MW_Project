@@ -1,0 +1,27 @@
+---
+name: "4_data_summary"
+title: "Mind Wandering Project"
+description: |
+date: Jan 21, 2021
+favicon: images/tcpsr.png
+base_url: https://scgeeker.github.io/MW_Project/
+repository_url: https://github.com/SCgeeker/MW_Project
+creative_commons: CC BY
+output_dir: "."
+#include: ["import.R"]
+exclude: ["docs.txt", "*.csv","README.md"]
+navbar: 
+  search: true
+  source_url: true
+  right: 
+    - text: "Home"
+      menu: 
+        - text: "End Code"
+          href: endcode.html
+    - text: "About"
+      href: about.html
+output: 
+  distill::distill_article: 
+    css: styles.css
+    highlight: rstudio
+---

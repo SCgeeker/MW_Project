@@ -1,0 +1,28 @@
+---
+title: "神遊研究專案資訊網站"
+description: |
+author:
+  - name: "黃鈺文"
+  - name: "陳昶翰"
+  - name: "金佳穎"
+  - name: "陳紹慶"
+    url: https://scchen.com
+    affiliation: 慈濟大學
+    affiliation_url: https://www.tcu.edu.tw
+    orcid_id: 0000-0001-6092-6049
+output: 
+  distill::distill_article: 
+    toc: true
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+本站創建日期時間：`r as.POSIXct("2021-01-21 15:34:34 CST")`\
+本站最新更新時間：`r Sys.time()`

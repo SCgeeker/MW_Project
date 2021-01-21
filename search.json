@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "關於專案",
+      "author": [],
+      "contents": "\r\n2020/12/26正式上線收集資料，\r\n\r\n本專案網站使用Distill套件開發及維護，網站資訊原始資料及程式碼請見本站github。\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-21T16:21:42+08:00"
+    },
+    {
+      "path": "endcode.html",
+      "title": "實驗完成碼列表",
+      "author": [],
+      "contents": "\r\n本頁公開最新的有效實驗完成碼，提供參與者核對參與紀錄。如果您記下實驗完成碼，可使用瀏覽器的搜尋功能尋找。\r\n\r\n實驗完成碼\r\naUOWUdmrCQ\r\nv4dQg6eV2a\r\nzYBabBdB83\r\n7b3nsuFvKZ\r\naFZtC28VX4\r\nHA5qaBax4j\r\nWbhNNOuK2y\r\nnNyAWJ8VaL\r\n73YECWNkY3\r\nCjDpADszGO\r\nSVW5TrhgTz\r\nED5dq2NJpq\r\nfUnHXx4bFS\r\nwpJhmjAzQt\r\nSgvPONnwK4\r\nWQR8P8GMys\r\nRLks7EFCJU\r\nVsvRA3FjpO\r\nXfYYHLFhEh\r\nB7GvYP9K4L\r\nfy566QTuqT\r\n7N92EwnqAj\r\nCN5jzt2jsz\r\nQnPCJSrjaq\r\nkEu4qrg2bL\r\ngukCbCxj7D\r\nk4ZrcXjNwO\r\nenu9MEqE9Y\r\nNJTtbpwAz9\r\nG6FgG3p3Ve\r\nWTqYT5zUus\r\n8KWTegYsSu\r\n4FX3MJC7Dp\r\nd6hp4LWggx\r\nFCssrrxkuS\r\ncD5O6kWrNw\r\nkHbUz8Lhnn\r\nKsYwTcmkNg\r\nG3EYxLL9NW\r\nAaTqtPdrKd\r\nnAppXrVRAU\r\nOtfsYQaJx2\r\ncPMLVTBhyB\r\nUdbkYgek4f\r\nVbXQ4Exp84\r\nZuqqZ2tDR6\r\nQbL3LumN4G\r\nG4uHU3DhxF\r\nvzLnSnHRNY\r\nPJetEcdYwP\r\n6yjt9Zwtgm\r\nM9WDzLvt28\r\nETRwe5gejP\r\n6tbrRWsFsA\r\n8XrA45uNDe\r\ng35mqPTVnm\r\nsbq9w3ztvB\r\nXvJtFC3LjJ\r\nPn7E75RcAk\r\n3eKyTcsCqC\r\n9L778XNLYa\r\nP5OzQa5fAT\r\n8EQp4Xyd5z\r\njqEOFEqeFk\r\nN6mQ9Uw5uG\r\nAnhrpsddUm\r\nBqB8PFZg84\r\nkcAjzDaQ2U\r\nhDgnXyveVD\r\nV5vJXgvvhf\r\navznATXHwz\r\n5u5mr6xfhh\r\naCwaUVATkH\r\ndps6Q7DsH7\r\nqxZhqX3U8Q\r\nvYXK7vrUMP\r\n2CNdESjMVv\r\nrCBc3DevYh\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-21T16:21:43+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "神遊研究專案資訊網站",
+      "author": [
+        {
+          "name": "黃鈺文",
+          "url": {}
+        },
+        {
+          "name": "陳昶翰",
+          "url": {}
+        },
+        {
+          "name": "金佳穎",
+          "url": {}
+        },
+        {
+          "name": "陳紹慶",
+          "url": "https://scchen.com"
+        }
+      ],
+      "contents": "\r\n本站創建日期時間：2021-01-21 15:34:34\r\n本站最新更新時間：2021-01-21 16:21:43\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-21T16:21:44+08:00"
+    }
+  ],
+  "collections": []
+}
