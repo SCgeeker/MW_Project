@@ -18,6 +18,8 @@ navbar:
       menu: 
         - text: "End Code"
           href: endcode.html
+        - text: "Exit Survey"
+          href: exit.html
     - text: "About"
       href: about.html
 output: 

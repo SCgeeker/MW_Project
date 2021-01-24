@@ -1,4 +1,4 @@
-participant,AssignBooklet:1,wherecome:1,gender:1,gender:other,birthyear:1,finalcheck:1,source:1,honest:1,endcode,TIME_start,TIME_end,TIME_total
+participant,AssignBooklet,wherecome,gender,gender_other,birthyear,finalcheck,source,honest,endcode,TIME_start,TIME_end,TIME_total
 s.28a9de55-ec17-493b-9997-ae84bf93f62c,1,1,2,NA,1983,3,龔俊嘉老師成立之臉書分頁NCKUPSY_ExpPsy_2020Fall,1,aUOWUdmrCQ,2021-01-20-08-21,2021-01-20-09-07,46
 s.a5202c49-157a-4b39-bd55-e2cde3a11ad0,2,1,2,NA,2000,4,上課課程,1,v4dQg6eV2a,2021-01-11-09-59,2021-01-11-10-19,20
 s.a2f3c6ea-0467-4e0f-b094-4f22ce4f18a8,1,1,2,NA,2000,2,課堂老師,1,zYBabBdB83,2021-01-10-13-37,2021-01-10-14-05,28
@@ -65,6 +65,7 @@ s.09c1bc9a-f2eb-4b22-828a-8f6ac6738857,2,1,1,NA,2001,2,心理實驗法FB社團,1
 s.e90b5fdc-f9f3-4c37-9707-6d20a7d3e810,2,1,1,NA,2001,2,上課社團,0,jqEOFEqeFk,2021-01-16-15-21,2021-01-16-15-49,28
 s.d279b017-3c0e-4ae6-b954-82932e82a9d2,2,1,3,NA,1900,1,台灣心理科學研究協作群案件交換網頁,1,N6mQ9Uw5uG,2021-01-07-04-45,2021-01-07-05-02,17
 s.f6fdd6de-c55b-4c6e-99ab-381f07e91bb4,2,1,2,NA,2001,2,台灣心理科學研究協作群案件交換網頁,1,AnhrpsddUm,2021-01-17-18-49,2021-01-17-19-17,28
+s.21b2aeee-c7ce-44eb-b5be-20f531921a76,2,3,2,NA,2000,2,朋友,1,Yfy7uRX8qG,2021-01-21-12-13,2021-01-21-12-59,46
 s.fb764c79-f86d-4158-a579-b5be88bb89cd,1,3,1,NA,1997,2,成功大學心理系,1,BqB8PFZg84,2021-01-20-15-36,2021-01-20-16-10,34
 s.c0513d62-0830-4184-9990-650ef46ab1ca,1,1,1,NA,2001,2,心實群組,1,kcAjzDaQ2U,2021-01-16-11-51,2021-01-16-12-29,38
 s.a44079da-15ee-404f-a670-9e9007b82d45,2,1,2,NA,1998,2,心理實驗法課程,1,hDgnXyveVD,2021-01-12-19-25,2021-01-12-19-49,24

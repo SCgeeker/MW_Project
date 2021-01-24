@@ -1,6 +1,6 @@
 ---
 title: "實驗完成碼列表"
-description: |
+description: 本頁公開最新的有效實驗完成碼，提供參與者核對參與紀錄。如果您記下實驗完成碼，可使用瀏覽器的搜尋功能尋找。
 ---
 
 ```{r setup, include=FALSE}
@@ -10,9 +10,8 @@ postdata <- read_csv(file="POST_rawdata.csv")
 endcode = postdata$endcode
 ```
 
-本頁公開最新的有效實驗完成碼，提供參與者核對參與紀錄。如果您記下實驗完成碼，可使用瀏覽器的搜尋功能尋找。
 
-目前已完成實驗的參與者人數有```r length(endcode)```人。
+到最近更新網站時間，已完成實驗的參與者人數有```r length(endcode)```人。
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}

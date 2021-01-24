@@ -1,0 +1,86 @@
+---
+title: "登出調查統計"
+description: 本頁公開登出調查項目的最新統計結果。
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readr)
+library(lubridate)
+postdata <- read_csv(file="POST_rawdata.csv")
+```
+
+### 參與者性別人數統計
+
+
+```{r gender, echo=FALSE, message=FALSE, warning=FALSE}
+## Change the numbers to factor
+postdata$gender <- as.factor(postdata$gender)
+## Rename the levels
+if(sum(!is.na(postdata$gender_other)) > 0){ 
+  postdata$gender[!is.na(postdata$gender_other)] = "4"
+  levels(postdata$gender) <- c("男性","女性","不願回答","其他")
+} else { 
+  levels(postdata$gender) <- c("男性","女性","不願回答")
+}
+
+ggplot(postdata) +
+  geom_bar(aes(x=gender,fill = gender), 
+           show.legend = FALSE)+
+  labs(x="性別回應項目", y="回答人數")+
+  theme_classic()
+```
+
+
+### 參與者年齡統計
+
+有效參與者共有```r sum(postdata$birthyear == 1900)```人不願意回答年齡問題。願意回答的有效參與者平均年齡是```r round(mean(2021 - postdata$birthyear[postdata$birthyear!=1900]),2)```歲。
+
+### 參與者的誠信回應統計
+
+有效參與者有```r sum(postdata$honest)```人認為作答表現可供資料分析，一共有```r sum(postdata$finalcheck == 0)```人直接跳過最後檢測題。根據最後檢測題，參與者進行實驗的場所統計如下圖：
+
+```{r place, echo=FALSE, message=FALSE, warning=FALSE}
+## Rename the levels
+if(sum( postdata$finalcheck == 0 ) > 0){
+  postdata$finalcheck = postdata$finalcheck[postdata$finalcheck!=0]
+} 
+
+## Change the numbers to factor
+postdata$finalcheck <- as.factor(postdata$finalcheck)
+
+levels(postdata$finalcheck) <- c("學校","家裡","工作場所","其他地點")
+
+ggplot(postdata) +
+  geom_bar(aes(x=finalcheck,fill = finalcheck), 
+           show.legend = FALSE)+
+  labs(x="實驗場所回應項目", y="回答人數")+
+  theme_classic()
+```
+
+
+### 參與者完成日期統計
+
+第一位有效參與者完成實驗的日期是```r min(as.Date(postdata$TIME_end))```。依照完成日期，統計各週參與實驗的人數如下圖。
+
+
+```{r time, echo=FALSE, message=FALSE, warning=FALSE}
+## Making of functions
+## Get the first day of the week
+start.of.week <- function(date)
+  date - (setNames(c(6,0:5),0:6) [strftime(date,'%w')])
+## Get the last day of the week
+#end.of.week <- function(date)
+#  date + (setNames(c(0,6),0:6) [strftime(date,'%w')])
+
+
+ggplot(postdata %>% mutate( week_period = paste(start.of.week(as.Date(TIME_end)),"~", (start.of.week(as.Date(TIME_end)) + days(6)) ) ) ) +
+  geom_bar(aes(x = week_period, fill = "blue"), 
+           show.legend = FALSE)+
+  labs(x="完成實驗的日期區間", y="完成實驗人數")+
+  theme_classic()
+```
+
+
