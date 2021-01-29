@@ -1,0 +1,15 @@
+---
+title: "研究資料"
+description: |
+--- 
+
+**原始資料**：執行結束公開下載連結
+
+**分析資料清單**
+- [資料編碼簿](https://docs.google.com/spreadsheets/d/12v_Mk6JO0SD92RiWn4_b1We2unHE_bCyR8eE6CzwcFk/edit?usp=sharing)  
+- [MW data](MW_rawdata.csv):文章閱讀與神遊報告反應  
+- [Survey data](Compre_rawdata.csv): 文章理解作答反應  
+- [NB data](NB_rawdata.csv): N back測試反應  
+- [Exit data](POST_rawdata.csv): 登出前調查反應  
+
+**資料處理程式碼**：執行結束公開下載連結

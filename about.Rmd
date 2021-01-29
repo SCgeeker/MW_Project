@@ -8,6 +8,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-2020/12/26正式上線收集資料，
+神遊專案由慈濟大學人類發展與心理學系師生主持執行，於2020/12/26正式上線收集資料。專案內容是[Feng等人(2003)的重置研究計畫](https://osf.io/jxv3c/)，預計於2021年4月前完成收集200位參與者。
 
-> 本專案網站使用[Distill](https://rstudio.github.io/distill/)套件開發及維護，網站資訊原始資料及程式碼請見本站[github](https://github.com/SCgeeker/MW_Project)。
+計畫團隊共同負責更新網站，執行期間隨時更新進度，執行結束本網站公開原始資料與分析結果。
+
+> 專案網站使用[Distill](https://rstudio.github.io/distill/)套件開發及維護，網站資訊原始資料及程式碼請見本站[github](https://github.com/SCgeeker/MW_Project)。

@@ -24,5 +24,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+### 網站選單導覽
+
+`Home` -> `Endcode`: 實驗完成碼清單  
+`Home` -> `Exit Survey`: 登出前調查總結  
+`Data`: 專案原始資料、分析資料、處理程式碼說明  
+`Resutls` -> `Summary`: 分析結果描述統計展示  
+`Resutls` -> `Comprehensive Analysis`: 分析結果推論統計展示   
+`About`: 專案網站說明、預印本與OSF連結
+
 本站創建日期時間：`r as.POSIXct("2021-01-21 15:34:34 CST")`\
 本站最新更新時間：`r Sys.time()`

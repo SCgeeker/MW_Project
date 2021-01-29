@@ -1,6 +1,7 @@
 ---
 name: "4_data_summary"
 title: "Mind Wandering Project"
+theme: styles.css
 description: |
 date: Jan 21, 2021
 favicon: images/tcpsr.png
@@ -20,10 +21,18 @@ navbar:
           href: endcode.html
         - text: "Exit Survey"
           href: exit.html
+    - text: "Data"
+      href: data.html
+    - text: "Results"
+      menu:
+        - text: "Summary"
+          href: summary.html
+        - text: "Comprehensive Analysis"
+          href: analysis.html
     - text: "About"
       href: about.html
 output: 
   distill::distill_article: 
-    css: styles.css
+    toc: true
     highlight: rstudio
 ---

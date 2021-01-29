@@ -19,7 +19,7 @@ postdata <- read_csv(file="POST_rawdata.csv")
 ## Change the numbers to factor
 postdata$gender <- as.factor(postdata$gender)
 ## Rename the levels
-if(sum(!is.na(postdata$gender_other)) > 0){ 
+if(sum(!is.na(postdata$`gender:other`)) > 0){ 
   postdata$gender[!is.na(postdata$gender_other)] = "4"
   levels(postdata$gender) <- c("男性","女性","不願回答","其他")
 } else { 
