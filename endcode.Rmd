@@ -6,12 +6,14 @@ description: 本頁公開最新的有效實驗完成碼，提供參與者核對�
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
+library(lubridate)
 postdata <- read_csv(file="POST_rawdata.csv")
+latest_date <- max(date(postdata$TIME_end))
 endcode = postdata$endcode
 ```
 
 
-到最近更新網站時間，已完成實驗的參與者人數有```r length(endcode)```人。
+到最近更新網站時間，已完成實驗的參與者人數有```r length(endcode)```人。最後一位完成實驗的參與者，完成日期為```r latest_date```。
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
