@@ -4,6 +4,7 @@ create_website(dir = "4_data_summary", title = "Mind wandering Project")
 
 ## Update the website content
 ## Code is avaialble when working direction set to 4_data_summary
+rmarkdown::clean_site(preview = FALSE)
 rmarkdown::render_site(encoding = "UTF-8")
 
 
